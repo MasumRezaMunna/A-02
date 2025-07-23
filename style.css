@@ -41,7 +41,7 @@ nav ul li a{
 
 /* main part start */
 
-/* section one start */
+/* fresh-flowers section start */
 
 .fresh-flowers{
     display: flex;
@@ -56,9 +56,9 @@ nav ul li a{
     max-width: 570px;
 }
 
-/* section one end */
+/* fresh-flowers section end */
 
-/* section two start */
+/* our-plants section start */
 
 .our-plants{
     padding: 120px 150px;
@@ -70,11 +70,12 @@ nav ul li a{
 
 .our-plants-container h1{
     font-size: 50px;
+    margin-bottom: 1px;
 }
 
 .our-plants-container p{
-    margin-top: -35px;
-    margin-bottom: 49px;
+    width: 52%;
+    margin: auto;
 }
 
 .gallery{
@@ -84,6 +85,7 @@ nav ul li a{
 
 .card{
     text-align: center;
+    margin-top: 50px;
 }
 
 .card p{
@@ -105,6 +107,8 @@ nav ul li a{
     margin-top: -10px;
     margin-bottom: 20px;
 }
+
+/* our plants section end */
 
 
 
@@ -148,7 +152,7 @@ nav ul li a{
 
     /* main part start */
     
-    /* section one start */
+    /* fresh-flowers section start */
 
     .fresh-flowers{
         flex-direction: column-reverse;
@@ -172,12 +176,43 @@ nav ul li a{
         font-size: 24px;
     }
 
-    /* section one end */
+    .fresh-flowers-text p{
+        font-size: 14px;
+    }
 
-    /* section two start */
+    /* fresh-flowers section end */
 
+    /* our-plants section start */
 
+    .gallery{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
 
-    /* section two end */
+    .our-plants{
+        padding: 5px;
+    }
+
+    .our-plants-container{
+        width: 100%;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    .our-plants-container h1{
+        font-size: 24px;
+    }
+
+    .our-plants-container p{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .card.p{
+        font-size: 16px;
+    }
+    
+
+    /* our-plants section end */
 
 }
