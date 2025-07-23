@@ -4,6 +4,10 @@
     color: rgba(0, 0, 0, .6);
 }
 
+.text-color{
+    color: #E95A08;
+}
+
 /* header section  */
 
 header{
@@ -25,13 +29,59 @@ nav ul li a{
     text-decoration: none;
 }
 
+/* header end */
+
+/* main part start */
+
+/* section one start */
+
+.fresh-flowers{
+    display: flex;
+    padding: 120px 150px;
+}
+
+.fresh-flowers-text h1{
+    font-size: 65px;
+    font-family: "Noto Serif", serif;
+}
+
+.fresh-flowers-text p{
+    max-width: 570px;
+}
+
+/* section one end */
+
+/* section two start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 @media screen and (max-width: 576px){
-    
+
+    /* header start */
     header{
         padding: 67px 16px;
     }
@@ -43,7 +93,40 @@ nav ul li a{
     .bar-4{
         margin-top: 40px;
     }
+    /* header end */
+
+    /* main part start */
+    
+    /* section one start */
+
+    .fresh-flowers{
+        flex-direction: column-reverse;
+        padding: 0;
+        gap: 100px;
+    }
+
+    .fresh-flowers-img{
+        width: 393.18px;
+        height: 245px;
+        padding: 0;
+        margin-top: 28px;
+    }
+
+    .fresh-flowers-text{
+        padding: 28px 16px;
+        top: 2px;
+    }
+
+    .fresh-flowers-text h1{
+        font-size: 24px;
+    }
+
+    /* section one end */
+
+    /* section two start */
 
 
+
+    /* section two end */
 
 }
