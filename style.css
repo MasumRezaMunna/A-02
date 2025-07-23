@@ -1,0 +1,49 @@
+/* shared items */
+
+.dark-1{
+    color: rgba(0, 0, 0, .6);
+}
+
+/* header section  */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+    
+    header{
+        padding: 67px 16px;
+    }
+
+    .bar-1, .bar-2, .bar-3{
+        display: none;
+    }
+
+    .bar-4{
+        margin-top: 40px;
+    }
+
+
+
+}
