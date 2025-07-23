@@ -8,6 +8,14 @@
     color: #E95A08;
 }
 
+.font-family{
+    font-family: "Noto Serif", serif;
+}
+
+.font-family-p{
+    font-family: "inter";
+}
+
 /* header section  */
 
 header{
@@ -42,7 +50,6 @@ nav ul li a{
 
 .fresh-flowers-text h1{
     font-size: 65px;
-    font-family: "Noto Serif", serif;
 }
 
 .fresh-flowers-text p{
@@ -53,7 +60,51 @@ nav ul li a{
 
 /* section two start */
 
+.our-plants{
+    padding: 120px 150px;
+}
 
+.our-plants-container{
+    text-align: center;
+}
+
+.our-plants-container h1{
+    font-size: 50px;
+}
+
+.our-plants-container p{
+    margin-top: -35px;
+    margin-bottom: 49px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card{
+    text-align: center;
+}
+
+.card p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.card h3{
+    margin-top: -15px;
+}
+
+.card button{
+    color: white;
+    background-color: #E95A08;
+    padding: 10px 80px;
+    border: none;
+    font-size: 14px;
+    font-weight: 350;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
 
 
 
