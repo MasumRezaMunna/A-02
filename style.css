@@ -16,6 +16,13 @@
     font-family: "inter";
 }
 
+/* body */
+
+body{
+    overflow-x: hidden;
+    background-color: rgb(245, 248, 255);
+}
+
 /* header section  */
 
 header{
@@ -233,6 +240,84 @@ ul .bar-4 :last-child{
     left: 300px;
 }
 
+/* latest deals section end */
+
+/* join section start */
+
+.join-banner{
+    position: relative;
+}
+
+.join-banner img{
+    width: 1500px;
+}
+
+.join-banner h1{
+    font-size: 50px;
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 450px;
+
+}
+
+.join-banner .email{
+    position: absolute;
+    top: 300px;
+    left: 335px;
+    padding: 8px 20px ;
+    width: 600px;
+    height: 40px;
+
+}
+
+.join-banner .button{
+    position: absolute;
+    top: 300px;
+    left: 980px;
+    background-color: #E95A08;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    width: 186px;
+    height: 60px;
+}
+
+
+/* join section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -373,9 +458,14 @@ ul .bar-4 :last-child{
     justify-content: center;
 }
 
+.deals .bloom img{
+    border-radius: 20px;
+}
+
 .zabo-plant img{
     width: 361px;
     margin-top: -30px;
+    border-radius: 20px;
 }
 
 .zabo-plant h5{
@@ -389,5 +479,39 @@ ul .bar-4 :last-child{
     top: 100px;
     left: 120px;
 }
+
+/* latest deals section end */
+
+/* join section start */
+
+.join-banner img{
+    width: 560px;
+    height: 276px;
+    margin-left: 0px;
+}
+
+.join-banner h1{
+    font-size: 20px;
+    width: 100%;
+    left: 150px;
+    top: 80px;
+}
+
+.join-banner .email{
+    width: 218px;
+    height: 30px;
+    left: 90px;
+    top: 140px;
+}
+
+.join-banner .button{
+    width: 103px;
+    height: 50px;
+    left: 350px;
+    top: 140px;
+}
+
+/* join section end */
+
 
 }
