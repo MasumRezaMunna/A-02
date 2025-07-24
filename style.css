@@ -1,59 +1,58 @@
-*{
-    margin: 0;
-
+* {
+  margin: 0;
 }
 
 /* shared items */
 
-.dark-1{
-    color: rgba(0, 0, 0, .6);
+.dark-1 {
+  color: rgba(0, 0, 0, 0.6);
 }
 
-.text-color{
-    color: #E95A08;
+.text-color {
+  color: #e95a08;
 }
 
-.font-family{
-    font-family: "Noto Serif", serif;
+.font-family {
+  font-family: "Noto Serif", serif;
 }
 
-.font-family-p{
-    font-family: "inter";
+.font-family-p {
+  font-family: "inter";
 }
 
 /* body */
 
-body{
-    overflow-x: hidden;
-    background-color: rgb(245, 248, 255);
+body {
+  overflow-x: hidden;
+  background-color: rgb(245, 248, 255);
 }
 
 /* header section  */
 
-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 150px;
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 150px;
 }
 
-nav ul{
-    display: flex;
-    gap: 50px;
+nav ul {
+  display: flex;
+  gap: 50px;
 }
 
-nav ul li{
-    list-style: none;
+nav ul li {
+  list-style: none;
 }
 
-nav ul li a{
-    text-decoration: none;
+nav ul li a {
+  text-decoration: none;
 }
 
-ul .bar-1 :last-child{
-    color: black;
+ul .bar-1 :last-child {
+  color: black;
 }
-ul .bar-4 :last-child{
-    color: black;
+ul .bar-4 :last-child {
+  color: black;
 }
 
 /* header end */
@@ -62,203 +61,206 @@ ul .bar-4 :last-child{
 
 /* fresh-flowers section start */
 
-.fresh-flowers{
-    display: flex;
-    padding: 120px 150px;
+.fresh-flowers {
+  display: flex;
+  padding: 120px 150px;
 }
 
-.fresh-flowers-text h1{
-    font-size: 65px;
+.fresh-flowers-text h1 {
+  font-size: 65px;
 }
 
-.fresh-flowers-text p{
-    max-width: 570px;
+.fresh-flowers-text p {
+  max-width: 570px;
 }
 
 /* fresh-flowers section end */
 
 /* our-plants section start */
 
-.our-plants{
-    padding: 120px 150px;
+.our-plants {
+  padding: 120px 150px;
 }
 
-.our-plants-container{
-    text-align: center;
+.our-plants-container {
+  text-align: center;
 }
 
-.our-plants-container h1{
-    font-size: 50px;
-    margin-bottom: 1px;
+.our-plants-container h1 {
+  font-size: 50px;
+  margin-bottom: 1px;
 }
 
-.our-plants-container p{
-    width: 52%;
-    margin: auto;
+.our-plants-container p {
+  width: 52%;
+  margin: auto;
 }
 
-.gallery{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.card{
-    text-align: center;
-    margin-top: 50px;
+.card {
+  text-align: center;
+  margin-top: 50px;
 }
 
-.card p{
-    font-size: 18px;
-    margin-top: 20px;
+.card p {
+  font-size: 18px;
+  margin-top: 20px;
 }
 
-
-
-.card button{
-    color: white;
-    background-color: #E95A08;
-    padding: 10px 80px;
-    border: none;
-    font-size: 14px;
-    font-weight: 350;
-    margin-top: 10px;
+.card button {
+  color: white;
+  background-color: #e95a08;
+  padding: 10px 80px;
+  border: none;
+  font-size: 14px;
+  font-weight: 350;
+  margin-top: 10px;
 }
 
 /* our plants section end */
 
 /* plants lover section start */
 
-.plants-lover{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-    padding: 211.13px 150px;
+.plants-lover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 211.13px 150px;
 }
 
-.img-content{
-    position: relative;
+.img-content {
+  position: relative;
 }
 
-.img-content .flower-store{
-    width: 540px;
-    height: 597px;
+.img-content .flower-store {
+  width: 540px;
+  height: 597px;
 }
 
-.img-content .badge{
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    top: -14%;
-    left: 75%;
+.img-content .badge {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: -14%;
+  left: 75%;
 }
 
-.text-content{
-    width: 35%;
+.text-content {
+  width: 35%;
 }
 
-.text-content h1{
-    font-size: 50px;
+.text-content h1 {
+  font-size: 50px;
 }
 
-.text-content p{
-    font-size: 22px;
+.text-content p {
+  font-size: 22px;
 }
 
-.text-content li{
-    margin-bottom: 25px;
+.text-content li {
+  margin-bottom: 25px;
 }
 
 /* plants lover section end */
 
 /* latest deals section start */
 
-.latest-deals-text{
-    justify-content: center;
-    text-align: center;
+.latest-deals-text {
+  justify-content: center;
+  text-align: center;
 }
 
-.latest-deals-text h1{
-    font-size: 50px;
+.latest-deals-text h1 {
+  font-size: 50px;
 }
 
-.latest-deals-text p{
-    font-size: 22px;
-    width: 54%;
-    margin: auto;
+.latest-deals-text p {
+  font-size: 22px;
+  width: 54%;
+  margin: auto;
 }
 
-.deals{
-    display: flex;
-    justify-content: center;
-    padding: 121px 150px;
-    gap: 28px;
+.deals {
+  display: flex;
+  justify-content: center;
+  padding: 121px 150px;
+  gap: 28px;
 }
 
-.bloom, .ana{
-    margin-bottom: 25px;
-    position: relative;
+.bloom,
+.ana {
+  margin-bottom: 25px;
+  position: relative;
 }
 
-.bloom h5, .ana h5 {
-    font-size: 20px;
-    color: white;
-    position: absolute;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    left: 65px;
-    top: 40px;
+.bloom h5,
+.ana h5 {
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  left: 65px;
+  top: 40px;
 }
 
-.bloom p, .ana p{
-    font-size: 16px;
-    color: white;
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top: 90px;
-    left: 140px;
+.bloom p,
+.ana p {
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 90px;
+  left: 140px;
 }
 
-.zabo-plant{
-    position: relative;
+.zabo-plant {
+  position: relative;
 }
 
-.zabo-plant h5{
-    position: absolute;
-    font-size: 40px;
-    color: white;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    top: 100px;
-    left: 150px;
+.zabo-plant h5 {
+  position: absolute;
+  font-size: 40px;
+  color: white;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  top: 100px;
+  left: 150px;
 }
-.zabo-plant p{
-    position: absolute;
-    font-size: 28px ;
-    color: white;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    top: 200px;
-    left: 300px;
+.zabo-plant p {
+  position: absolute;
+  font-size: 28px;
+  color: white;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  top: 200px;
+  left: 300px;
 }
 
-.bloom img, .ana img, .zabo-plant img{
-    border-radius: 20px;
+.bloom img,
+.ana img,
+.zabo-plant img {
+  border-radius: 20px;
 }
 
 /* latest deals section end */
 
 /* join section start */
 
-.join-banner{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    width: 100vw;
+.join-banner {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
 }
 
 /* .join-banner img{
@@ -269,306 +271,290 @@ ul .bar-4 :last-child{
     margin: 0 10px;
 } */
 
-.join-banner img{
-    display: block;
-    width: 100vw;
-    height: auto;
-    object-fit: cover;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    left: 0;
+.join-banner img {
+  display: block;
+  width: 100vw;
+  height: auto;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 0;
 }
 
-.join-banner h1{
-    font-size: 50px;
-    position: absolute;
-    color: white;
-    top: 150px;
-    left: 450px;
-
+.join-banner h1 {
+  font-size: 50px;
+  position: absolute;
+  color: white;
+  top: 150px;
+  left: 450px;
 }
 
-.join-banner .email{
-    position: absolute;
-    top: 300px;
-    left: 335px;
-    padding: 8px 20px ;
-    width: 600px;
-    height: 40px;
-
+.join-banner .email {
+  position: absolute;
+  top: 300px;
+  left: 335px;
+  padding: 8px 20px;
+  width: 600px;
+  height: 40px;
 }
 
-.join-banner .button{
-    position: absolute;
-    top: 300px;
-    left: 980px;
-    background-color: #E95A08;
-    border: none;
-    color: white;
-    padding: 8px 20px;
-    width: 186px;
-    height: 60px;
+.join-banner .button {
+  position: absolute;
+  top: 300px;
+  left: 980px;
+  background-color: #e95a08;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  width: 186px;
+  height: 60px;
 }
-
 
 /* join section end */
 
 /* footer start */
 
-footer{
-    padding: 50px 160px;
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
+footer {
+  padding: 50px 160px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
 }
 
-footer ul{
-    list-style: none;
+footer ul {
+  list-style: none;
 }
 
-footer li{
-    margin-bottom: 20px;
+footer li {
+  margin-bottom: 20px;
 }
 
-footer .social-icon img{
-    position: static;
-    margin: 0 24px;
+footer .social-icon img {
+  position: static;
+  margin: 0 24px;
 }
 
-.footer-logo p{
-    font-size: 22px;
+.footer-logo p {
+  font-size: 22px;
 }
 
 /* footer end */
 
-
-
 /* animation section start */
 
-
-@keyframes spin{
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-    
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
-
-
-.badge{
-    animation: spin 4s linear infinite;
+.badge {
+  animation: spin 4s linear infinite;
 }
-
 
 /* animarion section end */
 
+@media screen and (max-width: 576px) {
+  /* header start */
+  header {
+    padding: 67px 16px;
+  }
 
+  .bar-1,
+  .bar-2,
+  .bar-3 {
+    display: none;
+  }
 
-@media screen and (max-width: 576px){
+  .bar-4 {
+    margin-top: 40px;
+  }
+  /* header end */
 
-    /* header start */
-    header{
-        padding: 67px 16px;
-    }
+  /* main part start */
 
-    .bar-1, .bar-2, .bar-3{
-        display: none;
-    }
+  /* fresh-flowers section start */
 
-    .bar-4{
-        margin-top: 40px;
-    }
-    /* header end */
+  .fresh-flowers {
+    flex-direction: column-reverse;
+    padding: 0;
+    gap: 100px;
+  }
 
-    /* main part start */
-    
-    /* fresh-flowers section start */
+  .fresh-flowers-img {
+    width: 393.18px;
+    height: 245px;
+    padding: 0;
+    margin-top: 28px;
+  }
 
-    .fresh-flowers{
-        flex-direction: column-reverse;
-        padding: 0;
-        gap: 100px;
-    }
+  .fresh-flowers-text {
+    padding: 28px 16px;
+    top: 2px;
+  }
 
-    .fresh-flowers-img{
-        width: 393.18px;
-        height: 245px;
-        padding: 0;
-        margin-top: 28px;
-    }
+  .fresh-flowers-text h1 {
+    font-size: 24px;
+  }
 
-    .fresh-flowers-text{
-        padding: 28px 16px;
-        top: 2px;
-    }
+  .fresh-flowers-text p {
+    font-size: 14px;
+  }
 
-    .fresh-flowers-text h1{
-        font-size: 24px;
-    }
+  /* fresh-flowers section end */
 
-    .fresh-flowers-text p{
-        font-size: 14px;
-    }
+  /* our-plants section start */
 
-    /* fresh-flowers section end */
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 
-    /* our-plants section start */
+  .our-plants {
+    padding: 5px;
+  }
 
-    .gallery{
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
+  .our-plants-container {
+    width: 100%;
+    align-items: center;
+    margin-left: 50px;
+  }
 
-    .our-plants{
-        padding: 5px;
-    }
+  .our-plants-container h1 {
+    font-size: 24px;
+  }
 
-    .our-plants-container{
-        width: 100%;
-        align-items: center;
-        margin-left: 50px;
-    }
+  .our-plants-container p {
+    width: 100%;
+    font-size: 14px;
+  }
 
-    .our-plants-container h1{
-        font-size: 24px;
-    }
+  .card.p {
+    font-size: 16px;
+  }
 
-    .our-plants-container p{
-        width: 100%;
-        font-size: 14px;
-    }
+  /* our-plants section end */
 
-    .card.p{
-        font-size: 16px;
-    }
-    
+  /* plants lover section start */
 
-    /* our-plants section end */
+  .plants-lover {
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 10px;
+  }
 
-    /* plants lover section start */
+  .img-content .flower-store {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-left: 65px;
+    margin-top: 60px;
+  }
 
+  .badge {
+    display: none;
+  }
 
-    .plants-lover{
-        flex-direction: column;
-        padding: 10px;
-        margin-left: 10px;
-    }
+  .text-content {
+    width: 100%;
+    margin-left: 100px;
+  }
 
-    .img-content .flower-store{
-        width: 100%;
-        height: 100%;
-        align-items: center;
-        margin-left: 65px;
-        margin-top: 60px;
-    }
+  /* plant lover section end */
 
-    .badge{
-        display: none;
-    }
+  /* latest deals section start */
 
-    .text-content{
-        width: 100%;
-        margin-left: 100px;
-    }
-
-/* plant lover section end */
-
-/* latest deals section start */
-
-
-.latest-deals-text h1{
+  .latest-deals-text h1 {
     font-size: 24px;
     margin-left: 120px;
     margin-top: 133px;
-}
+  }
 
-.latest-deals-text p{
+  .latest-deals-text p {
     width: 100%;
     font-size: 14px;
-    margin-left:60px;
-}
+    margin-left: 60px;
+  }
 
-.deals{
+  .deals {
     flex-direction: column;
     padding: 90px;
     justify-content: center;
-}
+  }
 
-.deals .bloom img{
+  .deals .bloom img {
     border-radius: 20px;
-}
+  }
 
-.zabo-plant img{
+  .zabo-plant img {
     width: 361px;
     margin-top: -30px;
     border-radius: 20px;
-}
+  }
 
-.zabo-plant h5{
+  .zabo-plant h5 {
     font-size: 20px;
     top: 50px;
     left: 50px;
-}
+  }
 
-.zabo-plant p{
+  .zabo-plant p {
     font-size: 16px;
     top: 100px;
     left: 120px;
-}
+  }
 
-/* latest deals section end */
+  /* latest deals section end */
 
-/* join section start */
+  /* join section start */
 
-.join-banner img{
+  .join-banner img {
     width: 580px;
     height: 276px;
+  }
 
-}
-
-.join-banner h1{
+  .join-banner h1 {
     font-size: 20px;
     width: 100%;
     left: 150px;
     top: 80px;
-}
+  }
 
-.join-banner .email{
+  .join-banner .email {
     width: 218px;
     height: 30px;
     left: 90px;
     top: 140px;
-}
+  }
 
-.join-banner .button{
+  .join-banner .button {
     width: 103px;
     height: 50px;
     left: 350px;
     top: 140px;
-}
+  }
 
-/* join section end */
+  /* join section end */
 
-/* footer start */
+  /* footer start */
 
-footer{
+  footer {
     flex-direction: column;
     width: 100%;
     padding: 50px 20px;
-}
+  }
 
-footer p{
+  footer p {
     margin-bottom: 32px;
-}
+  }
 
-footer li{
+  footer li {
     margin-bottom: 32px;
-}
+  }
 
-/* footer end */
-
+  /* footer end */
 }
