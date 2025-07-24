@@ -122,7 +122,6 @@ ul .bar-4 :last-child{
     font-size: 14px;
     font-weight: 350;
     margin-top: 10px;
-    margin-bottom: 20px;
 }
 
 /* our plants section end */
@@ -247,6 +246,10 @@ ul .bar-4 :last-child{
     left: 300px;
 }
 
+.bloom img, .ana img, .zabo-plant img{
+    border-radius: 20px;
+}
+
 /* latest deals section end */
 
 /* join section start */
@@ -341,31 +344,27 @@ footer .social-icon img{
 
 
 
+/* animation section start */
+
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
 
 
 
+.badge{
+    animation: spin 4s linear infinite;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* animarion section end */
 
 
 
