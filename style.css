@@ -37,6 +37,13 @@ nav ul li a{
     text-decoration: none;
 }
 
+ul .bar-1 :last-child{
+    color: black;
+}
+ul .bar-4 :last-child{
+    color: black;
+}
+
 /* header end */
 
 /* main part start */
@@ -151,12 +158,80 @@ nav ul li a{
 
 /* plants lover section end */
 
+/* latest deals section start */
 
+.latest-deals-text{
+    justify-content: center;
+    text-align: center;
+}
 
+.latest-deals-text h1{
+    font-size: 50px;
+}
 
+.latest-deals-text p{
+    font-size: 22px;
+    width: 54%;
+    margin: auto;
+}
 
+.deals{
+    display: flex;
+    justify-content: center;
+    padding: 121px 150px;
+    gap: 28px;
+}
 
+.bloom, .ana{
+    margin-bottom: 25px;
+    position: relative;
+}
 
+.bloom h5, .ana h5 {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    left: 65px;
+    top: 40px;
+}
+
+.bloom p, .ana p{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 90px;
+    left: 140px;
+}
+
+.zabo-plant{
+    position: relative;
+}
+
+.zabo-plant h5{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    top: 100px;
+    left: 150px;
+}
+.zabo-plant p{
+    position: absolute;
+    font-size: 28px ;
+    color: white;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    top: 200px;
+    left: 300px;
+}
 
 
 
@@ -275,8 +350,44 @@ nav ul li a{
         margin-left: 100px;
     }
 
+/* plant lover section end */
+
+/* latest deals section start */
 
 
+.latest-deals-text h1{
+    font-size: 24px;
+    margin-left: 120px;
+    margin-top: 133px;
+}
 
+.latest-deals-text p{
+    width: 100%;
+    font-size: 14px;
+    margin-left:60px;
+}
+
+.deals{
+    flex-direction: column;
+    padding: 90px;
+    justify-content: center;
+}
+
+.zabo-plant img{
+    width: 361px;
+    margin-top: -30px;
+}
+
+.zabo-plant h5{
+    font-size: 20px;
+    top: 50px;
+    left: 50px;
+}
+
+.zabo-plant p{
+    font-size: 16px;
+    top: 100px;
+    left: 120px;
+}
 
 }
